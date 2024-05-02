@@ -1,0 +1,92 @@
+# Operating system files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# Backup and temporary files
+*.swp
+*.swo
+*.bak
+*.tmp
+*~
+
+# Log files
+*.log
+*.out
+*.err
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build artifacts
+build/
+dist/
+bin/
+obj/
+DerivedData/
+
+# Bytecode and compiled files
+__pycache__/
+*.py[cod]
+*.o
+*.so
+*.exe
+*.dll
+*.class
+*.jar
+*.war
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+.env.*
+
+# Dependency manager artifacts
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+Carthage/Build/
+Pods/
+
+# IDE/editor-specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.iml
+*.xcworkspace
+*.xcuserdatad
+xcuserdata/
+
+# Test and coverage reports
+.tox/
+.nyc_output/
+.coverage
+.coverage.*
+.cache/
+.pytest_cache/
+.mypy_cache/
+coverage.xml
+nosetests.xml
+
+# Installer and packaging artifacts
+develop-eggs/
+.eggs/
+*.egg-info/
+*.egg
+.installed.cfg
+
+# Sphinx documentation artifacts
+docs/_build/
+
+# Translations and localization
+*.mo
+*.pot

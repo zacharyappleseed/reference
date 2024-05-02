@@ -1,0 +1,53 @@
+# Operating system files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# Backup and temporary files
+*.swp
+*.swo
+*.bak
+*.tmp
+*~
+
+# Cache directories
+.cache/
+.history/
+
+# IDE/editor-specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Logs
+*.log
+*.out
+*.err
+
+# Compiled binaries/executables
+*.o
+*.so
+*.exe
+*.dll
+*.class
+*.py[cod]
+
+# Build artifacts
+build/
+dist/
+bin/
+
+# Environment files
+.env
+.env.*
+
+# Scripts and package manager files
+node_modules/
+package-lock.json
+yarn.lock
